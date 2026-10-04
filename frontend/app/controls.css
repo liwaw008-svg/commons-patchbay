@@ -1,0 +1,12 @@
+.receipt-action{
+  grid-column:1/-1;
+  margin-top:10px;
+  border:1px solid var(--pink);
+  background:transparent;
+  color:var(--pink);
+  padding:8px;
+  font:700 8px 'Courier New',monospace;
+  letter-spacing:.1em;
+}
+.receipt-action:hover{background:var(--pink);color:var(--ink)}
+button:disabled{cursor:not-allowed;opacity:.45}

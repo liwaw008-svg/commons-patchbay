@@ -8,6 +8,16 @@ A community board freezes a public exchange rulebook and two to eight plain-lang
 
 No model chooses the final lifecycle. Contract code opens `AWAITING_PROVIDER` only when every criterion is satisfied. The request itself records requester acknowledgement; the provider must confirm separately before the patch becomes `CONNECTED`. Either party may cancel while pending, and anyone may release an expired reservation.
 
+## Live patch panel
+
+- App: https://commons-patchbay.pages.dev/
+- StudioNet contract: `0x814E10796e2d1b1a17c9987D4b6389050Adeaf1C`
+- Deployment transaction: `0xaec433b34ca4cc560cdeb0dad4709508ff93c4a2b4a73c24cc377bba273f3efd`
+- Completed patch: `CINEMA-1791124809` on board `PATCH-1791124809`
+- Final confirmation transaction: `0x65109a2eaa3969ce43453995310f0f38120a33db457c796336c2f3f9e523b42d`
+
+The live interface reads contract state, publishes new offers into the open demo board, submits independently hosted need records, and exposes provider confirmation for pending matches. Every write is labelled submitted first and shown as finalized only after the finalized receipt returns.
+
 ## Controls
 
 ```text
@@ -28,3 +38,5 @@ npm install
 npm run typecheck
 npm run build
 ```
+
+The recorded deployment and full four-transaction lifecycle are preserved in `deployment.json` and `network-run.json`.

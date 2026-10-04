@@ -1,0 +1,10 @@
+{
+  "account": "liwaw008-svg",
+  "network": "StudioNet",
+  "contractAddress": "0x814E10796e2d1b1a17c9987D4b6389050Adeaf1C",
+  "deploymentTransaction": "0xaec433b34ca4cc560cdeb0dad4709508ff93c4a2b4a73c24cc377bba273f3efd",
+  "deploymentConsensus": "MAJORITY_AGREE",
+  "deploymentExecution": "SUCCESS",
+  "sourceSha256": "5c79524e34d151f2b9e6f6efe7bc0ef05db06ef6500da259233cc38e625accf7",
+  "repository": "https://github.com/liwaw008-svg/commons-patchbay"
+}

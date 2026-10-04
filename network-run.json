@@ -1,0 +1,33 @@
+{
+  "boardId": "PATCH-1791124809",
+  "offerId": "PROJECTOR-1791124809",
+  "patchId": "CINEMA-1791124809",
+  "transactions": {
+    "board": "0xa2330ba899bb91b7fe659e45a042cd7b2710bfea84b2f0bec4857ccb790a0f01",
+    "offer": "0x4c5840a77a1c2c34ff12eaccb24c6b83ebcb7d5fc75aaf8309bc5e8809ddd742",
+    "request": "0x2e0cb619b1c330fd359f0985cdc2e70b70c6f9a63a939d979395f8a821779a74",
+    "confirm": "0x65109a2eaa3969ce43453995310f0f38120a33db457c796336c2f3f9e523b42d"
+  },
+  "state": {
+    "blocker_indexes": [],
+    "board_id": "PATCH-1791124809",
+    "deadline": 1791125789,
+    "id": "CINEMA-1791124809",
+    "offer_digest": "67f9e96a7af0c68d1d1a5e28450faf94c4890c3794f8db5c153dcb83117c9d5a",
+    "offer_id": "PROJECTOR-1791124809",
+    "provider_ack": true,
+    "request_digest": "382d6eb0bf845896420fcd9c9f3a6110982f9365c2c6de073c5ead638709a611",
+    "request_url": "https://raw.githack.com/liwaw008-svg/commons-patchbay/03f6f987cbe20b0e637c300a358cf4c77a229c22/evidence/cinema-request.md",
+    "requester": "0x013A0745a3b2DbF87f4AB377266fCcb7e6eEC88A",
+    "requester_ack": true,
+    "rules_digest": "701d4b176c589260b9841a12508cf8dbca9064885d2b36f22ddbf9d40acb2f34",
+    "satisfied_indexes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "state": "CONNECTED"
+  },
+  "walletDisclosure": "All demo wallets and source fixtures are operator-controlled."
+}
