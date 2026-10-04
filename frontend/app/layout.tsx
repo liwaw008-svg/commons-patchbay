@@ -1,0 +1,1 @@
+import'./globals.css';export const metadata={title:'Commons Patchbay',description:'Plug one useful thing into one honest need.'};export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
